@@ -1,9 +1,3 @@
-// function setElementById(elementText,newValue){
-//     const inputeNumber = document.getElementById(elementText);
-//     inputeNumber= newValue;
-   
-
-//}
 
 let nameArr = [];
 function display(names){
