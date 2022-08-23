@@ -63,5 +63,12 @@ document.getElementById('costBTN').addEventListener('click',function(){
     const playerExpense =totalPlayer * expenses;
      setInputText(playerExpense,'costTotal');
 })
+document.getElementById('totalCostBTN').addEventListener('click',function(){
+    const totalPlayer = getInputElementById('coach');
+    const expenses =getInputElementById('manager');
+    const total =getTextElementById('costTotal');
 
+    const playerExpense =totalPlayer + expenses +total;
+    setInputText(playerExpense,'total');
+})
 
